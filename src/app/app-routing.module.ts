@@ -1,3 +1,4 @@
+import { AcademicComponent } from './academic/academic.component';
 import { CourcesComponent } from './cources/cources.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { HomeComponent } from './home/home.component';
@@ -32,6 +33,10 @@ const routes: Routes = [
   {
     path: 'cources',
     component: CourcesComponent,
+  },
+  {
+    path: 'academic',
+    component: AcademicComponent,
   },
 ];
 

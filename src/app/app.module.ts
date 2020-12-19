@@ -10,6 +10,7 @@ import { Semana02Component } from './semanas/semana02/semana02.component';
 import { HomeComponent } from './home/home.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { CourcesComponent } from './cources/cources.component';
+import { AcademicComponent } from './academic/academic.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { CourcesComponent } from './cources/cources.component';
     Semana02Component,
     ExperienceComponent,
     CourcesComponent,
+    AcademicComponent,
     
   ],
   imports: [
