@@ -1,3 +1,6 @@
+import { AcademicComponent } from './academic/academic.component';
+import { CourcesComponent } from './cources/cources.component';
+import { ExperienceComponent } from './experience/experience.component';
 import { HomeComponent } from './home/home.component';
 import { Semana01Component } from './semanas/semana01/semana01.component';
 import { AboutComponent } from './about/about.component';
@@ -22,6 +25,18 @@ const routes: Routes = [
   {
     path: 'week02',
     component: Semana02Component,
+  },
+  {
+    path: 'experience',
+    component: ExperienceComponent,
+  },
+  {
+    path: 'cources',
+    component: CourcesComponent,
+  },
+  {
+    path: 'academic',
+    component: AcademicComponent,
   },
 ];
 
