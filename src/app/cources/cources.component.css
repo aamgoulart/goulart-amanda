@@ -1,3 +1,7 @@
-/* .container {
-  width: 800px
-} */
+.container {
+  margin-top: 150px;
+}
+
+.card-title {
+  text-align: center;
+}
