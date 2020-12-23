@@ -1,0 +1,9 @@
+.container {
+  margin-top: 80px;
+}
+
+h1, h2 {
+  font-family: 'Fira Sans', sans-serif;
+  line-height: 1.2;
+  font-size: 24px
+}

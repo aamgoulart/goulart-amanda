@@ -1,3 +1,4 @@
+import { ContactComponent } from './contact/contact.component';
 import { AcademicComponent } from './academic/academic.component';
 import { CourcesComponent } from './cources/cources.component';
 import { ExperienceComponent } from './experience/experience.component';
@@ -38,6 +39,10 @@ const routes: Routes = [
     path: 'academic',
     component: AcademicComponent,
   },
+  {
+    path:'contact',
+    component: ContactComponent
+  }
 ];
 
 @NgModule({
