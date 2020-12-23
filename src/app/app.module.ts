@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { CourcesComponent } from './cources/cources.component';
 import { AcademicComponent } from './academic/academic.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { AcademicComponent } from './academic/academic.component';
     ExperienceComponent,
     CourcesComponent,
     AcademicComponent,
+    ContactComponent,
     
   ],
   imports: [
